@@ -10,6 +10,6 @@ class School
     roster[grade] = []
     roster[grade] << name
     
-    roster=>{grade=>["#{name}"]}
+    if roster[grade].exist? 
   end
 end
